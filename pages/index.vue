@@ -1,0 +1,15 @@
+<script setup>
+const { sayHello } = useUtils();
+sayHello();
+</script>
+
+<template>
+  <div>
+    <h1>Index Page</h1>
+    <Alert />
+    <Profile />
+
+    <IconsMario />
+    <img src="~/assets/mario.jpg" alt="Mario" />
+  </div>
+</template>
