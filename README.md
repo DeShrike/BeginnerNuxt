@@ -78,13 +78,13 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 See https://www.youtube.com/watch?v=fTPCKnZZ2dk
 
-https://youtu.be/fTPCKnZZ2dk?feature=shared&t=1934
+https://youtu.be/fTPCKnZZ2dk?t=1934
 
 https://icones.js.org
 
 VueUse
 
-https://youtu.be/fTPCKnZZ2dk?feature=shared&t=3647
+https://youtu.be/fTPCKnZZ2dk?t=3647
 
 https://content.nuxt.com/get-started/installation
 
@@ -177,4 +177,8 @@ https://youtu.be/fTPCKnZZ2dk?t=5008
 
 # Nitro
 
-https://youtu.be/fTPCKnZZ2dk?feature=shared&t=5623
+https://youtu.be/fTPCKnZZ2dk?t=5623
+
+# useFetch
+
+https://youtu.be/fTPCKnZZ2dk?t=6725

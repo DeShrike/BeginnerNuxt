@@ -26,6 +26,9 @@
         <li>
           <NuxtLink to="/apicall">API call</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/books">Books</NuxtLink>
+        </li>
       </ul>
     </header>
     <hr />

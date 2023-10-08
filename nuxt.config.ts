@@ -37,4 +37,5 @@ export default defineNuxtConfig({
       headers: { "X-Extra": "Asset", "cache-control": " s-maxage=1" },
     },
   },
+  ssr: false,
 });

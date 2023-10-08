@@ -1,0 +1,19 @@
+{
+"data": [
+    {
+        "id": 1,
+        "name": "Heliconia Spring",
+        "author": "Brian Aldis" 
+    },
+    {
+        "id": 2,
+        "name": "The Left Hand of Darkness",
+        "author": "Ursula K. LeGuin" 
+       },
+    {
+        "id": 3,
+        "name": "Rendez-vous with Rama",
+        "author": "Arthur C. Clarke" 
+    }
+]
+}
