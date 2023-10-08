@@ -1,5 +1,5 @@
 <script setup>
-const data1 = await $fetch("api/hello");
+const data1 = await $fetch("/api/hello");
 const data2 = await $fetch("/hello");
 </script>
 

@@ -174,3 +174,7 @@ Add "@pinia/nuxt" to modules array in _nuxt.config.js_
 # Server
 
 https://youtu.be/fTPCKnZZ2dk?t=5008
+
+# Nitro
+
+https://youtu.be/fTPCKnZZ2dk?feature=shared&t=5623

@@ -27,4 +27,14 @@ export default defineNuxtConfig({
       ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
     ],
   },
+  routeRules: {
+    "/api/**": {
+      ssr: true,
+      headers: { "X-Extra": "Extra Header", "cache-control": " s-maxage=0" },
+    },
+    "/old": { redirect: "/" },
+    "/assets": {
+      headers: { "X-Extra": "Asset", "cache-control": " s-maxage=1" },
+    },
+  },
 });
