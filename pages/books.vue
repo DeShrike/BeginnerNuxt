@@ -4,6 +4,12 @@ const { data: books, pending } = await useLazyFetch("/api/books", {
 });
 
 console.log(toRaw(books.value));
+
+useHead({
+  title: "My Books",
+  meta: [{ name: "description", content: "These are my books" }],
+  bodyAttrs: { class: "books-page" },
+});
 </script>
 
 <template>

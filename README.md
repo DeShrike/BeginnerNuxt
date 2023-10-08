@@ -182,3 +182,7 @@ https://youtu.be/fTPCKnZZ2dk?t=5623
 # useFetch
 
 https://youtu.be/fTPCKnZZ2dk?t=6725
+
+# SEO & Meta
+
+https://youtu.be/fTPCKnZZ2dk?t=7695

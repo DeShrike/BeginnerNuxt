@@ -3,6 +3,24 @@
 import { resolve } from "path";
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: "Nuxt Test Title",
+      meta: [
+        {
+          name: "description",
+          content: "Nuxt Test Description",
+        },
+        {
+          name: "X-MyHeader",
+          content: "Content of X-MyHeader",
+        },
+      ],
+      link: [],
+      style: [],
+      script: [],
+    },
+  },
   devtools: { enabled: true },
   alias: {
     "@": resolve(__dirname, "/"),
@@ -37,5 +55,5 @@ export default defineNuxtConfig({
       headers: { "X-Extra": "Asset", "cache-control": " s-maxage=1" },
     },
   },
-  ssr: false,
+  ssr: true,
 });

@@ -5,6 +5,11 @@ const color = useColor();
 
 <template>
   <div>
+    <Head>
+      <Title>{{ color }}</Title>
+      <Meta name="description" content="This Is The Counter Page" />
+      <Meta name="whatever" :content="color" />
+    </Head>
     <p>Counter: {{ counter }}</p>
     <p>
       <button @click="counter++">Inc</button>
