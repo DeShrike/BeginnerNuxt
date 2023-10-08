@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   },
   modules: ["@nuxt/content", "@pinia/nuxt"],
   content: {
-    base: "/content",
+    //base: "/content",
     watch: false,
   },
   pinia: {

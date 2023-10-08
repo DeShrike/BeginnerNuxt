@@ -2,6 +2,7 @@
 
 <template>
   <div>
+    <hr />
     <header>
       <ul>
         <li>
@@ -21,6 +22,9 @@
         </li>
         <li>
           <NuxtLink to="/storetest">Store Test</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/apicall">API call</NuxtLink>
         </li>
       </ul>
     </header>

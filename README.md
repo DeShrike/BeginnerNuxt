@@ -170,3 +170,7 @@ npm install @pinia/nuxt
 ```
 
 Add "@pinia/nuxt" to modules array in _nuxt.config.js_
+
+# Server
+
+https://youtu.be/fTPCKnZZ2dk?t=5008
