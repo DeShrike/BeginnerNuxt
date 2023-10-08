@@ -86,6 +86,8 @@ VueUse
 
 https://youtu.be/fTPCKnZZ2dk?feature=shared&t=3647
 
+https://content.nuxt.com/get-started/installation
+
 ```bash
 nvm use v16.20.1
 
@@ -94,6 +96,8 @@ cd BeginnerNuxt
 npm install sass
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
+
+npm install @nuxt/content
 ```
 
 Create folder _assets_ and create a file _main.scss_
@@ -130,3 +134,18 @@ In assets/main.scss add:
 @tailwind components
 @tailwind utilities
 ```
+
+In nuxt.config.js add:
+
+```
+  modules: [
+    '@nuxt/content'
+  ],
+  content: {
+    base: "/content",
+    watch: false,
+    // ... options
+  }
+```
+
+Add content in the _/content_ folder, using markdown:

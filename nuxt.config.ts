@@ -15,4 +15,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ["@nuxt/content"],
+  content: {
+    base: "/content",
+    watch: false,
+  },
 });

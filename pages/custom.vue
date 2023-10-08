@@ -9,6 +9,8 @@ definePageMeta({
     <h1>Custom Page</h1>
     <Alert />
 
+    <ContentDoc />
+
     <p>
       {{ $Hello("from myPlugin !!") }}
     </p>

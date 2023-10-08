@@ -9,6 +9,8 @@ sayHello();
     <Alert />
     <Profile />
 
+    <ContentDoc />
+
     <IconsMario />
     <img src="~/assets/mario.jpg" alt="Mario" width="200" />
   </div>
