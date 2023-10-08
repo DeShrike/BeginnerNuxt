@@ -16,8 +16,15 @@
         <li>
           <NuxtLink to="/custom">Custom</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/counter">Counter</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/storetest">Store Test</NuxtLink>
+        </li>
       </ul>
     </header>
+    <hr />
   </div>
 </template>
 

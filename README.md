@@ -96,8 +96,6 @@ cd BeginnerNuxt
 npm install sass
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
-
-npm install @nuxt/content
 ```
 
 Create folder _assets_ and create a file _main.scss_
@@ -135,6 +133,12 @@ In assets/main.scss add:
 @tailwind utilities
 ```
 
+# Modules
+
+```bash
+npm install @nuxt/content
+```
+
 In nuxt.config.js add:
 
 ```
@@ -149,3 +153,20 @@ In nuxt.config.js add:
 ```
 
 Add content in the _/content_ folder, using markdown:
+
+Add this on a page:
+
+```
+<ContentDoc />
+```
+
+# State
+
+Create folder _/stores_
+
+```bash
+npm install pinia
+npm install @pinia/nuxt
+```
+
+Add "@pinia/nuxt" to modules array in _nuxt.config.js_

@@ -2,6 +2,8 @@
 definePageMeta({
   layout: "custom",
 });
+
+const counter2 = useCounter();
 </script>
 
 <template>
@@ -10,6 +12,8 @@ definePageMeta({
     <Alert />
 
     <ContentDoc />
+
+    <p>Counter 2: {{ counter2 }}</p>
 
     <p>
       {{ $Hello("from myPlugin !!") }}

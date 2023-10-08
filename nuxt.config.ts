@@ -15,9 +15,16 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@pinia/nuxt"],
   content: {
     base: "/content",
     watch: false,
+  },
+  pinia: {
+    autoImports: [
+      // automatically imports `defineStore`
+      "defineStore", // import { defineStore } from 'pinia'
+      ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
+    ],
   },
 });
