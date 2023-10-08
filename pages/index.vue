@@ -10,6 +10,6 @@ sayHello();
     <Profile />
 
     <IconsMario />
-    <img src="~/assets/mario.jpg" alt="Mario" />
+    <img src="~/assets/mario.jpg" alt="Mario" width="200" />
   </div>
 </template>

@@ -14,6 +14,6 @@ definePageMeta({
     </p>
 
     <IconsPacman />
-    <img src="~/assets/pacman.jpg" alt="Pacman" />
+    <img src="~/assets/pacman.jpg" alt="Pacman" width="300" />
   </div>
 </template>

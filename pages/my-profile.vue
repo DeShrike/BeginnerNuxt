@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const { $Hello } = useNuxtApp();
 
+definePageMeta({
+  middleware: "middle",
+});
+
 console.log($Hello("also from myPlugin !"));
 </script>
 
